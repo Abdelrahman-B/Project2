@@ -1,0 +1,297 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+/* Start of Nav */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.nav-logo img{
+    width: 350px;
+}
+
+.navigations{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#ABABAB;
+    font-size: 1.1rem;
+}
+
+.active{
+    color: #00B39B;
+}
+
+
+
+
+/* End of Nav */
+
+/* Start of Hero */
+
+.hero-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hero-logo img{
+    width: 50px;
+}
+
+.hero-header{
+    font-size: 1.3rem;
+    color: #00B39B;
+}
+
+.hero-paragraph{
+    display: flex;
+    gap:30px;
+    padding: 0 240px;
+}
+
+.hero-cards{
+    display: flex;
+    justify-content: center;
+    padding: 0px 270px;
+    margin: 70px 0 20px 0;
+    gap:50px;
+}
+
+.card{
+    padding: 30px 20px;
+    width: 400px;
+    height:300px;
+    border-radius: 3mm;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+}
+
+.first-card{
+    background-color: #00CCB1;
+}
+
+.second-card{
+    background-color: #3D83DF;
+}
+
+.third-card{
+    background-color: #1b2734;
+}
+
+.card img{
+    width: 25px;
+}
+
+.card h3{
+    font-size: 1.7rem;
+}
+
+.card p{
+    font-size:1.5rem;
+}
+
+.card select{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+}
+.collaborations{
+    display: flex;
+    justify-content: center;
+    gap:340px
+}
+
+.collaborations p{
+    color: #00B39B;
+    font-size: 1.3rem;
+}
+
+.collaborations img{
+    width: 420px;
+}
+
+/* Hero End! */
+
+/* Achievement Start! */
+
+.achievement{
+    display: flex;
+    justify-content: center;
+    gap:170px;
+    background-color: #d0faf4;
+    padding: 50px 120px;
+}
+
+.achievement-text h3{
+    color:#00B39B;
+    font-size: 2rem;
+
+}
+
+
+.achieve-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 50px;
+}
+
+.achieve-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.achieve-card h3{
+    color: #00B39B;
+    font-size: 1.5rem;
+}
+
+.achieve-card p{
+    font-size: 0.8rem;
+}
+
+.margin-card{
+    margin:20px 0 0 0;
+}
+
+/* Achievement End! */
+
+/* Location Start! */
+.locations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.location-title{
+    padding: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-title h3{
+    color: #00B39B;
+    width: 350px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.location-title p{
+    width: 460px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.location-grid{
+    padding: 120px 50px;
+    display: grid;
+    grid-template-columns: repeat(3 , 0.1fr);
+    grid-gap: 0px 10px;
+}
+
+
+.location-card{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.location-card img{
+    width:300px;
+}
+
+.location-bar{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.location-bar button{
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    font-size: 0.6rem;
+    right: 15px;
+    bottom: 10px;
+    background-color: #3d83df;
+    color: white;
+    border: 1px solid #3d83df;
+    border-radius: 1mm;
+}
+
+.location-bar button:hover{
+    cursor: pointer;
+    border: 1px solid black;
+
+}
+
+.location-bar h4{
+    margin: 20px 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:80px
+}
+
+.join h3{
+    font-size: 1.9rem;
+}
+
+.join button{
+    width: 220px;
+    height: 35px;
+    border-radius: 1mm;
+    background-color: #3d83df;
+    color: white;
+    border: 1px solid #3d83df;
+    font-size: 0.8rem;
+}
+
+.join button:hover{
+    cursor: pointer;
+    border: 1px solid black;
+
+}
+
+.copyright{
+    font-size: 0.85rem;
+    padding: 0 280px;
+    color: #ABABAB;
+}
